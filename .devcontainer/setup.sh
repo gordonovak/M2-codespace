@@ -14,4 +14,4 @@ echo "postfix postfix/main_mailer_type select No configuration" | sudo debconf-s
 echo "postfix postfix/mailname string localhost" | sudo debconf-set-selections
 sudo add-apt-repository -y ppa:macaulay2/macaulay2
 sudo apt -y update
-sudo DEBIAN_FRONTEND=noninteractive apt -y install macaulay2 
+sudo apt -y install macaulay2 
