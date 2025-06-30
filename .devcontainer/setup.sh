@@ -9,11 +9,6 @@ sudo apt update
 echo "Installing dependencies..."
 sudo apt install -y software-properties-common curl
 
-sudo add-apt-repository -y ppa:canonical-server/server-backports
-echo "\n"
-sudo apt-get update
-sudo apt-get upgrade qemu-user-static
-
 echo "Adding Macaulay2 PPA..."
 sudo add-apt-repository -y ppa:macaulay2/macaulay2
 echo "\n"
