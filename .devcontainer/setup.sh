@@ -11,5 +11,5 @@ sudo apt install -y software-properties-common curl
 
 echo "Adding Macaulay2 PPA..."
 sudo add-apt-repository -y ppa:macaulay2/macaulay2
-sude apt update
+sudo apt update
 sudo apt install macaulay2 
