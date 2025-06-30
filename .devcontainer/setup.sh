@@ -12,4 +12,4 @@ sudo apt install -y software-properties-common curl
 echo "Adding Macaulay2 PPA..."
 sudo DEBIAN_FRONTEND=noninteractive add-apt-repository -y ppa:macaulay2/macaulay2
 sudo apt -y update
-sudo apt -y install macaulay2 
+sudo DEBIAN_FRONTEND=noninteractive apt -y install macaulay2 
